@@ -36,6 +36,9 @@ while True:
             else: 
                 aux = '*'
             frase = frase + aux
+        if frase == palavra:
+            print('\nVocê ganhou!')
+            break
         print(f'\nA palavra é: {frase}') 
     else:
         print(f'\nA letra {var} não está na palavra. Tente novamente.')
